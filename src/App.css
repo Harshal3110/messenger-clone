@@ -1,0 +1,40 @@
+.app {
+  text-align: center;
+}
+
+.app__form {
+  padding: 20px;
+  position: fixed;
+  bottom: 0px;
+  z-index: 1;
+  width: 96%;
+  background-color: #e9e9eb;
+  margin: 20px;
+  height: 75px;
+}
+
+.app__formControl {
+  display: flex !important;
+  flex-direction: row !important;
+}
+
+/* by flex 1 we ask input to take maximum space */
+.app__input {
+  flex: 1;
+}
+
+/* by flex 0 we ask send icon to take minimum space */
+.app__iconButton {
+  flex: 0 !important;
+}
+
+/* .app > img {
+  position: fixed;
+}
+
+.app > h2 {
+  position: fixed;
+  align-items: center;
+  padding-left: 880px;
+  padding-top: 110px;
+} */
